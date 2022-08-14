@@ -16,13 +16,14 @@ let name;
 function isValid(name) {
 
 
-  if (name === null || name.length <= 4 || name.includes(' ')) {
+  if (!name || name.length < 4 || name.includes(' ')) {
 
     return false;
 
   } else {
 
     return true;
+
 
   }
 
