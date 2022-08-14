@@ -5,7 +5,7 @@ function factorial(n) {
     return n = 1;
   };
 
-  for ( result; n > 1; n--) {
+  for (result; n > 1; n--) {
     result = result * n;
   }
   return result
