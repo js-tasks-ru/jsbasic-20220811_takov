@@ -1,9 +1,11 @@
 function checkSpam(str) {
-  if (str === '1XbeT now' || str === 'free xxxxx'){
+  if (str.includes('1XbeT') || str.includes('free')){
     return true;
   }else{
     return false;
   }
 }
 
-checkSpam(str);
+checkSpam('1XbeT now')
+checkSpam('free xxxxx')
+checkSpam('innocent rabbit')
