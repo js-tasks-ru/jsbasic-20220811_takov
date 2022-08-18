@@ -5,7 +5,7 @@ describe('2-module-1-task', () => {
       Ann: 1600,
       Pete: 1300
     };
-
+    
     expect(sumSalary(salaries)).toEqual(3900);
   });
 
