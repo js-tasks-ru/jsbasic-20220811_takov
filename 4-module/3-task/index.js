@@ -1,5 +1,3 @@
-const table = document.querySelector(".js-teachers");
-
 function highlight(table) {
 
   const headCells = table.tHead.rows[0].cells;
@@ -21,7 +19,7 @@ function highlight(table) {
 
   for (let row of table.tBodies[0].rows) {
     if (!row.cells[indexStatus].hasAttribute('data-available')) {
-      row.classList.add('hidden');
+      row.hidden = true;
     }
 
     if (row.cells[indexGender].innerText.toLowerCase() === 'm') {
