@@ -1,7 +1,9 @@
-let button = document.querySelector('.toggle-text-button');
-let text = document.querySelector('#text');
+
 
 function toggleText(button, text) {
+
+  let button = document.querySelector('.toggle-text-button');
+  let text = document.querySelector('#text');
 
   button.addEventListener('click', () => {
     text.toggleAttribute('hidden');
@@ -9,4 +11,4 @@ function toggleText(button, text) {
 
 }
 
-toggleText(button, text)
+
