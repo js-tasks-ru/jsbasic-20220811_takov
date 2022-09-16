@@ -1,10 +1,10 @@
 function initCarousel() {
 
-    let btnRight = document.querySelector(".carouselarrow_right"),
-        caruselWidth = document.querySelector(".carousel").offsetWidth,
-        btnLeft = document.querySelector(".carouselarrow_left"),
-        innerSlider = document.querySelector(".carouselinner"),
-        slide = document.querySelectorAll(".carouselslide"),
+    let btnRight = document.querySelector(".carousel__arrow_right"),
+        caruselWidth = document.querySelector(".carousel__slide").offsetWidth,
+        btnLeft = document.querySelector(".carousel__arrow_left"),
+        innerSlider = document.querySelector(".carousel__inner"),
+        slide = document.querySelectorAll(".carousel__slide"),
         position = 0;
         btnLeft.style.display = 'none';
 
